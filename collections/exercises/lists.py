@@ -36,5 +36,4 @@ print(cargo_hold)
 
 # Use .format() to print the final list and its length. "The list ___ contains ___ items."
 output = "The list {0} contains {1} items."
-
 print(output.format(cargo_hold, len(cargo_hold)))
