@@ -19,7 +19,7 @@ print(f"The original string was '{actual}', and the modified string is '{convert
 
 # c) Add validation to your code to deal with user inputs that are longer than the word. In such cases, default to moving 3 characters. Also, the template literal should note the error.
 
-actual = input("Enter a string: ") # user input
+actual = input("Enter a string: ") 
 num_letters = 6
 
 error_message = ""
